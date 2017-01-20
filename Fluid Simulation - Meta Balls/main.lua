@@ -53,7 +53,7 @@ function spawnFn()
 
   for i= 1, 10 do
   
-rand = math.random(12,32)
+rand = math.random(12,64)
 
 circle[#circle+1] = display.newImageRect("drop.png", rand, rand )
 circle[#circle].anchorX = 0.5
